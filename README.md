@@ -4,7 +4,7 @@ This repository has Indian Railways data that [Sanjay](https://twitter.com/sanja
 
 There are three JSON files:
 
-#### Stations
+### Stations
 [GeoJSON](http://geojson.org/) FeatureCollection, each Feature is a Station and looks like:
 
 ```json
@@ -24,7 +24,7 @@ There are three JSON files:
 }
 ```
 
-#### Trains
+### Trains
 GeoJSON FeatureCollection, each Feature is a Train and looks like:
 
 ```json
@@ -65,7 +65,7 @@ GeoJSON FeatureCollection, each Feature is a Train and looks like:
 }
 ```
 
-#### Schedules
+### Schedules
 An array of objects. Each object is a schedule which defines a Train stop at a Station. 
 
 ```json
